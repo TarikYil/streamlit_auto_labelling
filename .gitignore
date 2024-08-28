@@ -1,0 +1,56 @@
+# Bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment folder
+venv/
+.env/
+.venv/
+
+# VS Code venv
+.vscode/
+.vscode/settings.json
+
+# Jupyter Notebook checkpoint folder
+.ipynb_checkpoints/
+*.env
+*.env.*
+env
+venv
+venv*
+ENV/
+secrets.json
+
+# Log
+*.log
+*.out
+*.err
+
+# IDE
+.idea/
+*.sublime-workspace
+
+# Compile
+*.so
+*.dylib
+*.dll
+*.exe
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Lab directory (datasets, outputs, etc.)
+fastapi/lab/
+fastapi/image/
+fastapi/best_models/
+fastapi/api.py
+
+# Training outputs (runs directory)
+runs/
+
+venv/*
